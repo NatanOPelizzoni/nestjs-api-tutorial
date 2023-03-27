@@ -6,7 +6,7 @@ services:
       - 5434:5432
     environment:
       POSTGRES_PASSWORD: 123
-      POSTGRES_USER: user
+      POSTGRES_USER: postgres
       POSTGRES_DB: nest
     networks:
       - NatanOPelizzoni
